@@ -124,124 +124,68 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 29,
-                'title' => 'provinsi_create',
+                'title' => 'product_management_access',
             ],
             [
                 'id'    => 30,
-                'title' => 'provinsi_edit',
+                'title' => 'product_category_create',
             ],
             [
                 'id'    => 31,
-                'title' => 'provinsi_show',
+                'title' => 'product_category_edit',
             ],
             [
                 'id'    => 32,
-                'title' => 'provinsi_delete',
+                'title' => 'product_category_show',
             ],
             [
                 'id'    => 33,
-                'title' => 'provinsi_access',
+                'title' => 'product_category_delete',
             ],
             [
                 'id'    => 34,
-                'title' => 'kabupaten_create',
+                'title' => 'product_category_access',
             ],
             [
                 'id'    => 35,
-                'title' => 'kabupaten_edit',
+                'title' => 'product_tag_create',
             ],
             [
                 'id'    => 36,
-                'title' => 'kabupaten_show',
+                'title' => 'product_tag_edit',
             ],
             [
                 'id'    => 37,
-                'title' => 'kabupaten_delete',
+                'title' => 'product_tag_show',
             ],
             [
                 'id'    => 38,
-                'title' => 'kabupaten_access',
+                'title' => 'product_tag_delete',
             ],
             [
                 'id'    => 39,
-                'title' => 'penduduk_create',
+                'title' => 'product_tag_access',
             ],
             [
                 'id'    => 40,
-                'title' => 'penduduk_edit',
+                'title' => 'product_create',
             ],
             [
                 'id'    => 41,
-                'title' => 'penduduk_show',
+                'title' => 'product_edit',
             ],
             [
                 'id'    => 42,
-                'title' => 'penduduk_delete',
+                'title' => 'product_show',
             ],
             [
                 'id'    => 43,
-                'title' => 'penduduk_access',
+                'title' => 'product_delete',
             ],
             [
                 'id'    => 44,
-                'title' => 'ms_category_create',
-            ],
-            [
-                'id'    => 45,
-                'title' => 'ms_category_edit',
-            ],
-            [
-                'id'    => 46,
-                'title' => 'ms_category_show',
-            ],
-            [
-                'id'    => 47,
-                'title' => 'ms_category_delete',
-            ],
-            [
-                'id'    => 48,
-                'title' => 'ms_category_access',
-            ],
-            [
-                'id'    => 49,
-                'title' => 'transaction_detail_create',
-            ],
-            [
-                'id'    => 50,
-                'title' => 'transaction_detail_edit',
-            ],
-            [
-                'id'    => 51,
-                'title' => 'transaction_detail_show',
-            ],
-            [
-                'id'    => 52,
-                'title' => 'transaction_detail_delete',
-            ],
-            [
-                'id'    => 53,
-                'title' => 'transaction_detail_access',
-            ],
-            [
-                'id'    => 54,
-                'title' => 'transaction_header_create',
-            ],
-            [
-                'id'    => 55,
-                'title' => 'transaction_header_edit',
-            ],
-            [
-                'id'    => 56,
-                'title' => 'transaction_header_show',
-            ],
-            [
-                'id'    => 57,
-                'title' => 'transaction_header_delete',
-            ],
-            [
-                'id'    => 58,
-                'title' => 'transaction_header_access',
-            ],
+                'title' => 'product_access',
+            ]
         ];
 
         Permission::insert($permissions);
